@@ -1,8 +1,6 @@
 from color_code import test_number_to_pair
 from color_code import test_pair_to_number
-
-def color_pair_to_string(major_color, minor_color):
-  return f'{major_color} {minor_color}'
+from color_code import color_pair_to_string
   
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
