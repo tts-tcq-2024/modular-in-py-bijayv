@@ -1,9 +1,6 @@
 from GetColorPairNumber import get_color_from_pair_number
 from GetColorPairNumber import get_pair_number_from_color
 
-MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
-MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
-
 def color_pair_to_string(major_color, minor_color):
   return f'{major_color} {minor_color}'  
   
