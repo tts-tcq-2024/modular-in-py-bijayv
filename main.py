@@ -9,4 +9,5 @@ if __name__ == '__main__':
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
   print(color_pair_to_string('Violet','Orange'))
+  print(color_pair_to_string('Brown','Stale'))
   print('Done :)')
